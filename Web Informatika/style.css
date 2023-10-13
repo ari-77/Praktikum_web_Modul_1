@@ -1,0 +1,37 @@
+/* Navbar */
+
+/* Jumbotron */
+.jumbotron {
+	background-image: url(hero.jpg);
+	background-size: cover;
+	height: 640px;
+}
+
+.jumbotron .display-4 {
+	color: white;
+	text-align: left;
+	margin-top: 170px;
+}
+
+/* Footer */
+.row{
+	margin: 0;
+	padding:0;
+}
+
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+
+	}
+
+}
